@@ -6,11 +6,11 @@ def get_connection():
 
     return psycopg2.connect(
 
-        host="agentopsacc.postgres.database.azure.com",
+        host="",
         port="5432",
-        dbname="agentopsacc",
-        user="phoenixadmin",
-        password="agentopsacc"
+        dbname="",
+        user="",
+        password=""
 
     )
  
